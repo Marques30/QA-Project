@@ -28,3 +28,10 @@ a:hover {
 	margin-top: 200px;
 	max-width: 350px;
 }
+div {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	position: bottom;
+}
