@@ -4,16 +4,17 @@
 <head>
   <meta charset="uft-8">
   <link type="text/css" rel="stylesheet" href="style.css">
-  <script src="action.js"></script>
+  <script type="text/javascript" src="action.js"></script>
   <title></title>
   <img src="http://www.salesforce.org/wp-content/uploads/2014/02/yearuo-logo.jpg">
-  <h1 id="welcome"></h1>
+  <span="vName">
+  <script>readCookie('myCookie')</script>
+  </span>
   <form name="login">
-    <input type="text" 
-    id="userInput" placeholder="User name"/> 
-    <input type="password" name="pswrd" placeholder="Password" />
-    <input type="submit" onclick="userName()" value="Login" />
-    <input type="reset" value="Cancel" />
+  <input name="fname" type="text" placeholder="Name"><br>
+  <input type="text" placeholder="email address"><br>
+  <input value="Log in" onclick="createCookie('myCookie',frmLogin.fname.value)" type="button" />
+  <input type="reset" value="Cancel" />
   </form>
   <ul>
     <li><a href="YU.html">Year Up</a></li>
