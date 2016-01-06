@@ -5,3 +5,7 @@ function check(form) {
     alert("Error incorrect Password or Username")
   }
 }
+    function userName() {
+      var name = document.getElementById("userInput").value;
+      document.getElementById("welcome").innerHTML ="Welcome, " + name;
+    }

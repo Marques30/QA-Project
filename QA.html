@@ -7,10 +7,12 @@
   <script src="action.js"></script>
   <title></title>
   <img src="http://www.salesforce.org/wp-content/uploads/2014/02/yearuo-logo.jpg">
+  <h1 id="welcome"></h1>
   <form name="login">
-    <input type="text" name="userid" placeholder="User name" />
+    <input type="text" 
+    id="userInput" placeholder="User name"/> 
     <input type="password" name="pswrd" placeholder="Password" />
-    <input type="button" onclick="check(this.form)" value="Login" />
+    <input type="submit" onclick="userName()" value="Login" />
     <input type="reset" value="Cancel" />
   </form>
   <ul>

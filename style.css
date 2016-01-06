@@ -35,3 +35,7 @@ footer {
 	text-align: center;
 	position: bottom;
 }
+h1 {
+	text-align: right;
+	font-size: 25px;
+}
