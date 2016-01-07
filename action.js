@@ -1,21 +1,20 @@
 function check(form) {
-  if (form.userid.value == "crash" && form.pswrd.value == "x") {
+  if (form.pswrd.value == "crash") {
     window.open('YU.html')
   } else {
     alert("Error incorrect Password or Username")
   }
+
+  if (value.length < 1) {
+		alert("Please enter your name to login");
+		return false;
+		}
+	// ***** perform additional error checking here 
+	
+	document.cookie = name+"="+value+"; path=/";
+	location.reload();
 }
-    function userName() {
-      var name = document.getElementById("userInput").value;
-      document.getElementById("welcome").innerHTML ="Welcome, " + name;
-    }
-<<<<<<< HEAD
- // ***********************  COOKIE FUNCTIONS, INCLUDED ON ALL PAGES  ********************
-=======
 
-
-// ***********************  COOKIE FUNCTIONS, INCLUDED ON ALL PAGES  ********************
->>>>>>> origin/master
 
 // Create cookie for the first time
 function createCookie(name,value) {
@@ -58,9 +57,5 @@ function readCookie(name) {
 // Delete the cookie and reload the page to clear it
 function eraseCookie(name) {
 	document.cookie = name+"=;expires='1/1/2000'; path=/"; //setting to past date causes it to expire
-<<<<<<< HEAD
 	document.forms["frmLogin"].fname.value=''; location.href='index.html'
-=======
-	document.forms["frmLogin"].fname.value=''; location.href='YU.html'
->>>>>>> origin/master
 }

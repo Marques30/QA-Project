@@ -6,7 +6,7 @@
   <link type="text/css" rel="stylesheet" href="style.css">
   <script src="action.js"></script>
   <title></title>
-  <a href="www.yearup.org"><img src="http://www.salesforce.org/wp-content/uploads/2014/02/yearuo-logo.jpg"></a>
+  <a href="https://yearup.org"><img src="YL.jpg"></a>
   
 </head>
 
@@ -14,10 +14,12 @@
 
   <div class="gio">
     <h3>Please Login</h3>
+    <form name="frmLogin">
+    <input type="text" name="fname" placeholder="Name" style="text-align:center;" />
+    <input type="button" Value="Login" onclick="createCookie('myCookie',frmLogin.fname.value));check(this.form);" />
+    </form>
     <form name="login">
-    <input type="text" name="userid" placeholder="User name" /><br> 
-    <input type="password" name="pswrd" placeholder="Password" /><br>
-    <input type="button" onclick="check(this.form)" value="Login" />
+    <input type="password" name="pswrd" placeholder="Password" style="text-align:center;" />
     <input type="reset" value="Cancel" />
   </form>
   </div>
