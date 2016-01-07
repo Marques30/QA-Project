@@ -43,3 +43,8 @@ h1 {
 	float:right;
 	padding-left: 250px;
 }
+.icon {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
