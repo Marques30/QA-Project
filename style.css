@@ -39,6 +39,7 @@ h1 {
 	text-align: right;
 	font-size: 25px;
 }
+<<<<<<< HEAD
 #vName {
 	float:right;
 	padding-left: 250px;
@@ -47,4 +48,9 @@ h1 {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   text-align: left;
+=======
+span {
+	text-align: left;
+	margin-right: 560px;
+>>>>>>> origin/master
 }

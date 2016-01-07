@@ -1,21 +1,4 @@
-function check(form) {
-  if (form.userid.value == "crash" && form.pswrd.value == "x") {
-    window.open('YU.html')
-  } else {
-    alert("Error incorrect Password or Username")
-  }
-}
-    function userName() {
-      var name = document.getElementById("userInput").value;
-      document.getElementById("welcome").innerHTML ="Welcome, " + name;
-    }
-<<<<<<< HEAD
- // ***********************  COOKIE FUNCTIONS, INCLUDED ON ALL PAGES  ********************
-=======
-
-
 // ***********************  COOKIE FUNCTIONS, INCLUDED ON ALL PAGES  ********************
->>>>>>> origin/master
 
 // Create cookie for the first time
 function createCookie(name,value) {
@@ -58,9 +41,12 @@ function readCookie(name) {
 // Delete the cookie and reload the page to clear it
 function eraseCookie(name) {
 	document.cookie = name+"=;expires='1/1/2000'; path=/"; //setting to past date causes it to expire
-<<<<<<< HEAD
-	document.forms["frmLogin"].fname.value=''; location.href='index.html'
-=======
-	document.forms["frmLogin"].fname.value=''; location.href='YU.html'
->>>>>>> origin/master
+	document.forms["frmLogin"].fname.value=''; location.reload(); // on your web page, delete this line and un-comment the one below
+	// location.href='page1.html'  // replace this with your default home page, if different than this
+}
+
+// Use this just to do a quick check if we've set our cookie properly
+// Remove the 'Show Cookies' button from the page after debugging
+function showCookie() {
+	alert(document.cookie)
 }
