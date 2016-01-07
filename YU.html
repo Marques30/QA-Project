@@ -4,25 +4,30 @@
 <head>
   <meta charset="uft-8">
   <link type="text/css" rel="stylesheet" href="style.css">
-  <script src="action.js"></script>
+<script type="text/javascript" src="action.js"></script>
   <title></title>
-  <img src="http://www.salesforce.org/wp-content/uploads/2014/02/yearuo-logo.jpg">
-  <form name="login">
-    <input type="text" name="userid" placeholder="User name" />
-    <input type="password" name="pswrd" placeholder="Password" />
-    <input type="button" onclick="check(this.form)" value="Login" />
-    <input type="reset" value="Cancel" />
+  <a href="www.yearup.org"></a>><img src="http://www.salesforce.org/wp-content/uploads/2014/02/yearuo-logo.jpg"></a>
+  <span id="vName">
+  <script>readCookie('myCookie')</script>
+  </span>
+  <form name="frmLogin">
+  Please Log In:<br> <input type="text" name="fname" size="20" placeholder="Name">
+  <input type="text" name="userid" placeholder="email address" /><br>
+  <input type="button" Value="Log in" onClick="createCookie('myCookie',frmLogin.fname.value)">
+  <input type="reset" value="Cancel" />
   </form>
   <ul>
    <li><a href="YU.html">Year Up</a></li>
     <li><a href="QA.html">Quality Assurance</a></li>
     <li><a href="CP.html">Corporate Partners</a></li>
+    <li><a href="LI.html">Learning and Development</a></li>
+    <li><a href="Testing.html">Testing</a></li>
   </ul>
 </head>
 
 <body>
+<h3>Year Up</h3>
   <div>
-    <h3>Year Up</h3>
     <p></p>
   </div>
 </body>

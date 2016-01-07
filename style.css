@@ -28,7 +28,7 @@ a:hover {
 	margin-top: 200px;
 	max-width: 350px;
 }
-div {
+h3 {
 	text-align: center;
 }
 footer {
@@ -38,4 +38,8 @@ footer {
 h1 {
 	text-align: right;
 	font-size: 25px;
+}
+#vName {
+	float:right;
+	padding-left: 250px;
 }
