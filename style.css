@@ -48,3 +48,7 @@ h1 {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   text-align: left;
+#nom {
+      display: list-item;
+      color:white;
+}
