@@ -1,5 +1,5 @@
 function check(form) {
-  if (form.pswrd.value == "crash") {
+  if (form.pswrd.value == "Beta") {
     window.open('YU.html')
   } else {
     alert("Error incorrect Password or Username")
@@ -15,6 +15,18 @@ function check(form) {
 	location.reload();
 }
 
+function checkEmail(email,value){
+var status = false;     
+var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+     if (document.Login.email.value.search(emailRegEx) == -1) {
+          alert("Please enter a valid email address.");
+     }
+     else {
+          alert("Email is valid");
+          status = true;
+     }
+     return status;
+}
 
 // Create cookie for the first time
 function createCookie(name,value) {

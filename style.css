@@ -7,13 +7,15 @@ ul {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
+  color:white;
+  text-decoration: none;
 }
 
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
-  color:blue;
-
+  color:white;
+  text-decoration: none;
 }
 
 a:hover {
@@ -26,7 +28,7 @@ a:hover {
 	background: rgba(0, 0, 0, 0.5);
 	margin-left: 450px;
 	margin-top: 200px;
-	max-width: 350px;
+	max-width: 300px;
 }
 h3 {
 	text-align: center;
@@ -48,7 +50,9 @@ h1 {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   text-align: left;
+ }
 #nom {
+	  margin-left: 50px;
       display: list-item;
       color:white;
 }
