@@ -1,4 +1,4 @@
-function check(form) {
+function check(form,name,email) {
   if (form.pswrd.value == "Beta") {
     window.open('YU.html')
   } else {

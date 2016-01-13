@@ -1,5 +1,5 @@
 body {
-  background: url('images/sgb.jpg');
+  background: url('images/gb.jpg');
   color: white;
 }
 
@@ -19,7 +19,7 @@ li {
 }
 
 a:hover {
-  color: green;
+  color: gold;
 }
 .gio {
 	text-align: center;
@@ -58,4 +58,10 @@ h1 {
 }
 a {
 	color:white;
+}
+.nav {
+  background: none;
+  text-align: center;
+  color:white;
+  text-decoration: none;
 }
