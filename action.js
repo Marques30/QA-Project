@@ -1,29 +1,15 @@
-function check(form,name,email) {
-  if (form.pswrd.value == "Beta") {
-    window.open('YU.html')
-  } else {
-    alert("Error incorrect Password or Username")
-  }
 
-  if (value.length < 1) {
-		alert("Please enter your name to login");
-		return false;
-		}
-	// ***** perform additional error checking here 
-	
-	document.cookie = name+"="+value+"; path=/";
-	location.reload();
-}
 
-function checkEmail(email,value){
+function checkEmail(email,name,value){
 var status = false;     
 var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
      if (document.Login.email.value.search(emailRegEx) == -1) {
           alert("Please enter a valid email address.");
      }
      else {
-          alert("Email is valid");
-          status = true;
+          status = true; {
+    window.open('yu.html')
+  }
      }
      return status;
 }

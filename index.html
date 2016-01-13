@@ -16,13 +16,10 @@
     <h3>Please Login</h3>
     <form name="frmLogin">
     <input type="text" name="fname" placeholder="Name" style="text-align:center;" />
-    <input type="button" Value="Login" onclick="createCookie('myCookie',frmLogin.fname.value);check(this.form);" />
+    <input type="button" Value="Login" onclick="createCookie('myCookie',frmLogin.fname.value); checkEmail(email,name,value);" />
     <form name="Login">
     <input type="email" name="email" placeholder="email address" style="text-align:center">
-    <form name="login">
-    <input type="password" name="pswrd" placeholder="Password" style="text-align:center;" />
     <input type="reset" value="Cancel" />
-    </form>
   </form>
   </form>
   </div>
