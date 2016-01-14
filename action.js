@@ -1,17 +1,15 @@
 
 
-function checkEmail(email,name,value){
-var status = false;     
-var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
-     if (document.Login.email.value.search(emailRegEx) == -1) {
-          alert("Please enter a valid email address.");
-     }
-     else {
-          status = true; {
-    window.open('yu.html')
-  }
-     }
-     return status;
+function checkEmail(email){
+	var status = false;     
+	var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    if (document.Login.email.value.search(emailRegEx) == -1) {
+    	alert("Please enter a valid email address.");
+    } else {
+    	status = true;	
+        location.href='yu.html';
+  	}
+    return status;
 }
 
 // Create cookie for the first time
